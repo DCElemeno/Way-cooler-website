@@ -1,1 +1,24 @@
-<p>This is the partial for view 3.</p>
+<h2>Documentation</h2>
+
+<p>There are two main pages of documentation: Lua, and Client IPC. For now, it’s fine to keep them as one page though they might grow and require to be split up with an index. There should be a unifying page, linked from the Home Page, that describes the function of both the documents and of the two features, with links to their documentation.</p>
+
+<p>There should be a short description/summary at the top of the documentation describing vocabulary and other information necessary to understand the document/how to use the functions.</p>
+
+<p>Both will follow the same format: There are categories that contain either values to set  (Lua) or functions to call (D-Bus). E.g, here is an example of both:</p>
+
+<h2>For Lua:</h2>
+
+<h3>Programs</h3>
+<p>Terminal - The program that is ran when executing the launch_terminal command.</p>
+
+<h2>For D-Bus:</h2>
+
+
+<h3>Layout</h3>
+<p>CloseView(view_id: String) - Closes the view associated with the id. If the view_id is invalid, then an error is returned. An invalid id is one that is not associated with a container, or one that is not associated with a View.</p>
+
+<p>For the D-Bus commands, eventually they will need to be annotated with permissions. E.g, the CloseView command will need the “ClosePrograms” permission or something to that effect. For now, that should not be present because it is unknown at what level we will have them at (function, or category). </p>
+
+<p>Though it is not necessary, it might help to have a link from command to its place of definition in the source.</p>
+
+<p>I can fill in the content (e.g the documentation including the source links), but the styling/format is otherwise up to you. I suggest this as a way to format the documentation, but feel free to either try something else if you think it would work or to play around with how it is structured.</p>

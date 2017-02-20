@@ -9,6 +9,21 @@ angular.module('myApp.home', ['ngRoute'])
   });
 }])
 
-.controller('homeCtrl', [function() {
+.controller('homeCtrl', function($scope) {
 
-}]);
+	$scope.active = 1;
+	$scope.numImages = 4;
+
+	$scope.next = function() { 
+		($scope.active == $scope.numImages) ?
+			$scope.active = 1:
+			$scope.active += 1;
+	}
+
+	$scope.prev = function() { 
+		($scope.active == 1) ?
+			$scope.active = $scope.numImages:
+			$scope.active -= 1;
+	}
+
+});

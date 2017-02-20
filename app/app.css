@@ -38,3 +38,23 @@
   margin-left:auto;
   margin-right:auto;
 }
+
+/*.wcCarousel {
+  color:black; 
+  display: inline; 
+  list-style-type: none;
+  margin-left:40%;
+}
+
+.wcCarousel li {
+  border: 3px solid black; 
+  width:10px; 
+  padding:5px;
+  margin-right:5px;
+  float: left;
+}
+
+.wcCarouselActive {
+  width:5px; height:5px;
+  background-color: #add836;
+}*/

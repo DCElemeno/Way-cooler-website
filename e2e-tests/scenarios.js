@@ -26,10 +26,10 @@ describe('my app', function() {
   });
 
 
-  describe('view2', function() {
+  describe('install', function() {
 
     beforeEach(function() {
-      browser.get('index.html#!/view2');
+      browser.get('index.html#!/install');
     });
 
 

@@ -26,7 +26,15 @@
 
 .siteTitle {
   float:left;
-  margin-bottom:20px;
+  margin-bottom:10px;
 }
 
-.wcNav { margin-top: 50px; }
+.wcNav { 
+  margin-top: 50px !important; 
+}
+
+.wcPageOutput {
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
